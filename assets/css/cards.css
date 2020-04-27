@@ -1,5 +1,7 @@
 .cardContainer {
   /* display */
+  display: flex;
+  justify-content: flex-start;
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
@@ -7,6 +9,10 @@
 
 .card {
   /* display, flex-direction, flex-grow, flex-basis */
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+  flex-basis: 500px;
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   border: none;
@@ -17,6 +23,10 @@
 
 .cardDescription {
   /* display, flex-direction, align-items, flex-grow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 500px;
   padding: 15px 0;
 }
 
